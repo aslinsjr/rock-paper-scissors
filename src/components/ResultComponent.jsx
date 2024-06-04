@@ -15,7 +15,7 @@ const ResultComponent = ({move, houseMove, win, handleReload}) => {
         <button onClick={() => handleReload()}>Play again</button>
       </div> : 
       <div className='result-span'>
-        <h2>You Lose</h2>
+        <h2>Try again</h2>
         <button onClick={() => handleReload()}>Play again</button>
       </div>}
       <div className={`${houseMove}-bg`}>
