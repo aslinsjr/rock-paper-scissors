@@ -1,0 +1,20 @@
+.rules {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.rules-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+.rules button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

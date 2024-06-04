@@ -1,0 +1,56 @@
+.select-container {
+    width: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-container button {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.select-container button img {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+#triangle {
+    width:100% ;
+}
+
+.paper-bg,
+.rock-bg,
+.scissors-bg {
+    width: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.paper-bg {
+    top: calc(0% - 75px);
+    left: calc(0% - 75px);
+    background-image: var(--paper-gradient);
+}
+
+.scissors-bg {
+    top: calc(0% - 75px);
+    right: calc(0% - 75px);
+    background-image: var(--scissors-gradient);
+}
+
+.rock-bg {
+    bottom: calc(0% - 75px);
+    left: calc(50% - 75px);
+    background-image: var(--rock-gradient);
+}

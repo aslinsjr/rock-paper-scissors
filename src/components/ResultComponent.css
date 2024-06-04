@@ -1,0 +1,32 @@
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result-container div {
+    position: inherit;
+}
+
+.result-container img {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.result-span {
+    padding: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.result-span button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
