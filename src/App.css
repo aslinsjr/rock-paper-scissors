@@ -49,3 +49,76 @@ body {
   border-radius: 0.5rem;
 }
 
+@media screen and (max-width: 400px) {
+  .game-container {
+    width: 400px;
+  }
+  
+  .header,
+  .result-container {
+    width: 100%;
+  }
+
+  .paper-bg,
+  .rock-bg,
+  .scissors-bg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .paper-bg {
+    top: calc(0% - 50px);
+    left: calc(0% - 60px);
+    background-image: var(--paper-gradient);
+    animation: slideRight 0.5s;
+}
+
+.scissors-bg {
+    top: calc(0% - 50px);
+    right: calc(0% - 60px);
+    background-image: var(--scissors-gradient);
+    animation: slideLeft 0.5s;
+}
+
+.rock-bg {
+    bottom: calc(0% - 50px);
+    left: calc(50% - 60px);
+    background-image: var(--rock-gradient);
+    animation: slideTop 0.5s;
+}
+
+.result-span {
+  padding: 1rem;
+}
+
+@keyframes slideRight {
+  from {
+      left: 0;
+  }
+
+  to {
+      right: calc(0% - 60px);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+      right: 0;
+  }
+
+  to {
+      right: calc(0% - 60px);
+  }
+}
+
+@keyframes slideTop {
+  from {
+      bottom: 0;
+  }
+
+  to {
+      bottom: calc(0% - 50px);
+  }
+}
+
+} 

@@ -35,22 +35,57 @@
     justify-content: center;
     padding: 2rem;
     border-radius: 50%;
+    transition: 0.5s;
 }
 
 .paper-bg {
     top: calc(0% - 75px);
     left: calc(0% - 75px);
     background-image: var(--paper-gradient);
+    animation: slideRight 0.5s;
 }
 
 .scissors-bg {
     top: calc(0% - 75px);
     right: calc(0% - 75px);
     background-image: var(--scissors-gradient);
+    animation: slideLeft 0.5s;
 }
 
 .rock-bg {
     bottom: calc(0% - 75px);
     left: calc(50% - 75px);
     background-image: var(--rock-gradient);
+    animation: slideTop 0.5s;
 }
+
+@keyframes slideRight {
+    from {
+        left: 0;
+    }
+
+    to {
+        right: calc(0% - 75px);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: calc(0% - 75px);
+    }
+}
+
+@keyframes slideTop {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        bottom: calc(0% - 75px);
+    }
+}
+

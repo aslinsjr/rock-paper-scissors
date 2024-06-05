@@ -1,4 +1,5 @@
 .result-container {
+    width:520px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6,6 +7,8 @@
 
 .result-container div {
     position: inherit;
+    transition: 1s;
+    animation: fadeIn 1s;
 }
 
 .result-container img {
@@ -29,4 +32,15 @@
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 0.5rem;
+    border: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
