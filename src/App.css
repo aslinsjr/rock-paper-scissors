@@ -49,7 +49,7 @@ body {
   border-radius: 0.5rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .game-container {
     width: 400px;
   }
