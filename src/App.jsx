@@ -28,7 +28,9 @@ function App() {
   }
 
   function handleSelect(e) {
+
     setWin(false)
+
     setSelected(true)
 
     if(e.target.className === "paper") {
@@ -65,7 +67,7 @@ function App() {
       setWin(true)
       setScore(score + 1)
     }
-  }, [houseMove])
+  }, [move])
 
   
 
