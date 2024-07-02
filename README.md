@@ -48,4 +48,4 @@ In the process of continuing to develop my skills, I intend to focus on deepenin
 ## Author
 
 - Linkedln - [Alexandre Lins](https://www.linkedin.com/in/aslinsjr/)
-- Frontend Mentor - [@aslinsjr](https://www.frontendmentor.io/profile/aslinsjr)
+- Frontend Mentor - [@aslinsjr](https://www.frontendmentor.io/profile/aslinsjr
